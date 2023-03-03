@@ -49,7 +49,7 @@ while True:
 
     fps_text = "FPS: {:.1f}".format(fps)
     cv2.putText(frame, fps_text, (10, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255), 2)
-    tracking_text = "Volume Control"
+    tracking_text = "Exercise rep counter"
     cv2.putText(frame, tracking_text, (10, 80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255), 2)
 
 
